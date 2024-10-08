@@ -501,6 +501,7 @@ a.blog-read:hover {
 
 /* services style  */
 .service-icon {
+  display: inline-block;
   font-size: 30px;
   border-radius: 3.125rem;
   border: 1px solid #D9D9D8;
@@ -642,7 +643,7 @@ Blog section style start
 .pagination .page-numbers {
   width: 30px;
   height: 30px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   color: var(--bs-body-color);
   padding: 0 10px;
@@ -673,4 +674,9 @@ Single Product section style start
 .nav-pills .show>.nav-link {
   color: var(--light-color);
   background-color: var(--accent-color);
+}
+
+
+.flex-div {
+  display: flex;
 }
